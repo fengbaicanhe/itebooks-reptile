@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>EbooksReptile</artifactId>
+        <groupId>com.poet</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>reptile-api</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>reptile-api-base</module>
+        <module>reptile-api-model</module>
+        <module>reptile-api-extractor</module>
+        <module>reptile-api-dao</module>
+        <module>reptile-api-service</module>
+    </modules>
+
+
+</project>
